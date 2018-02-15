@@ -54,7 +54,7 @@ __all__ = [
     "Dashboard",
     "Horizon",
     "Panel",
-    "PanelGroup",
+    #"PanelGroup",
     "register",
     "unregister",
     "get_absolute_url",
