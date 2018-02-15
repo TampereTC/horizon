@@ -26,7 +26,7 @@ kombu==3.0.7
 # Horizon Utility Requirements
 # for SECURE_KEY generation
 lockfile==0.8
-six==1.9.1
+six==1.11.0
 netaddr==0.7.13
 Pillow==2.6.1
 PyQRCode==1.1 # Two Factor Authentication
