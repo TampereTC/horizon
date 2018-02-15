@@ -9,6 +9,7 @@
 # PBR should always appear first
 pbr==1.8.1
 # Horizon Core Requirements
+six==1.11.0
 Babel==2.1.1
 Django==1.7
 django-nocaptcha-recaptcha==0.0.18
@@ -26,7 +27,6 @@ kombu==3.0.7
 # Horizon Utility Requirements
 # for SECURE_KEY generation
 lockfile==0.8
-six==1.11.0
 netaddr==0.7.13
 Pillow==2.6.1
 PyQRCode==1.1 # Two Factor Authentication
