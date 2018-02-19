@@ -116,7 +116,7 @@ class InstallVenv(object):
         self.pip_install('pip>=1.4')
         self.pip_install('setuptools')
         self.pip_install('pbr')
-        self.pip.install('six==1.9.0')
+        
 
         self.pip_install('-r', self.requirements, '-r', self.test_requirements)
 
