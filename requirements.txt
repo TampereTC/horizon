@@ -9,7 +9,6 @@
 # PBR should always appear first
 pbr==1.8.1
 # Horizon Core Requirements
-six==1.11.0
 Babel==2.1.1
 Django==1.7
 django-nocaptcha-recaptcha==0.0.18
@@ -30,6 +29,7 @@ lockfile==0.8
 netaddr==0.7.13
 Pillow==5.0.0
 PyQRCode==1.2.1 # Two Factor Authentication
+six==1.9.0
 pyScss==1.3.5  # MIT License
 python-ceilometerclient==1.3.0
 python-cinderclient==1.1.1
