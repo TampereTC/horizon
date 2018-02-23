@@ -68,6 +68,7 @@ class InstallVenv(object):
         return (output, proc.returncode)
 
     def run_command(self, cmd, redirect_output=True, check_exit_code=True):
+        
         return self.run_command_with_code(cmd, redirect_output,
                                           check_exit_code)[0]
 
@@ -104,20 +105,22 @@ class InstallVenv(object):
             pass
 
     def pip_install(self, *args):
+        
         self.run_command(['tools/with_venv.sh',
                          'pip', 'install', '--upgrade'] + list(args),
                          redirect_output=False)
+        
 
     def install_dependencies(self):
         print('Installing dependencies with pip (this can take a while)...')
 
         # First things first, make sure our venv has the latest pip and
         # setuptools and pbr
-        self.pip_install('pip>=1.4')
+        self.pip_install('pip')
+        self.pip_install('six')
+        self.pip_install('django-angular')
         self.pip_install('setuptools')
         self.pip_install('pbr')
-        
-
         self.pip_install('-r', self.requirements, '-r', self.test_requirements)
 
     def parse_args(self, argv):

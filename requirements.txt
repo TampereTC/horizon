@@ -15,7 +15,6 @@ django-nocaptcha-recaptcha==0.0.18
 django-compressor==1.4
 #django_openstack_auth>=1.1.7,!=1.1.8,<=1.1.9
 -e git+https://github.com/ging/django_openstack_auth.git#egg=openstack_auth
-django-cors-headers==1.2.2
 django-gravatar2
 django-pyscss==1.0.6 # BSD License (2 clause)
 django-summernote==0.6.16
@@ -27,10 +26,9 @@ kombu==3.0.7
 # for SECURE_KEY generation
 lockfile==0.8
 netaddr==0.7.13
-Pillow==5.0.0
-PyQRCode==1.2.1 # Two Factor Authentication
-six==1.9.0
-pyScss==1.3.5  # MIT License
+Pillow==2.6.1
+PyQRCode==1.1 # Two Factor Authentication
+pyScss==1.2.1 # MIT License
 python-ceilometerclient==1.3.0
 python-cinderclient==1.1.1
 python-glanceclient==0.15.0
@@ -44,7 +42,7 @@ python-swiftclient==2.3.1
 python-troveclient==1.0.8
 pytz==2014.10
 XStatic==1.0.1 # MIT License
-XStatic-Angular==1.2.16.0  # MIT License
+XStatic-Angular # MIT License
 XStatic-Angular-Cookies==1.2.1.1  # MIT License
 XStatic-Angular-Mock==1.2.1.1  # MIT License
 XStatic-Bootstrap-Datepicker==1.3.1.0  # Apache 2.0 License
@@ -62,3 +60,4 @@ XStatic-JSEncrypt==2.0.0.2  # MIT License
 XStatic-QUnit==1.14.0.2  # MIT License
 XStatic-Rickshaw==1.5.0.0  # BSD License (prior)
 XStatic-Spin==1.2.5.2  # MIT License
+django-cors-headers==1.2.2
